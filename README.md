@@ -13,3 +13,7 @@ Cada usuario debera forkear codigo y llevarselo a su repositorio personal donde 
 en publico y compartira su github con aliriodi@gmail.com debera deployaer el codigo en nextjs vercel 
 para ver los avances en deploy
 
+Se estima 48 horas para hacer la solucion, en caso de no haber dado solucion en 48 horas, se extendera hasta un maximo 
+de 5 dias a partir de la fecha, el reto termina el 20/10/2021
+
+
