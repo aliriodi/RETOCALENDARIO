@@ -1,0 +1,251 @@
+
+.navbar {
+  z-index: 90;
+  display: flex;
+  /* position: fixed; */
+  width: 100%;
+  align-items: center; /* Centra verticalmente los elementos en la barra de navegación */
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 20px;
+  background-color: #4BCFEA;
+  padding: 31px 61px;
+}
+  
+.navbar-logo {
+  filter: drop-shadow(0px 1px 2px #00000040);
+}
+
+.navbar-btns{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  text-shadow: 0px 1px 2px #00000040;
+  color: var(--white);
+}
+
+.navbar-btns li{
+  cursor: pointer;
+}
+
+/* Menu */
+.navbar-menu{
+  display: flex;
+  background-color: var(--primary);
+}
+
+.navbar-menu_btn{
+  display: none;
+  width: 24px;
+  z-index: 100;
+  color: var(--white);
+}
+
+/* Select Idiomas */
+.select-languages{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  z-index: 10;
+}
+.select-languages_button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.select-languages_img{
+  width: 25px;
+  height: 17px;
+  border-radius: 4px;
+}
+
+.select-languages_label{
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+.select-languages_menu{
+  box-shadow: 0px 4px 35px #00000040;
+  overflow: hidden;
+  position: absolute;
+  top: 100%;
+  border-radius: 4px;
+  background-color: var(--white);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity .15s;
+}
+.select-languages_menu.active{
+  pointer-events: auto;
+  opacity: 100;
+}
+
+.select-languages_menu li{
+  padding: 6px 16px;
+  display: flex;
+  align-items: center;
+  color: #3F3D3D;
+  text-shadow: none;
+  transition: background .13s;
+}
+
+.select-languages_menu li:hover,
+.select-languages_menu li.active{
+  background-color: #4BCFEA;
+  color: var(--white);
+}
+
+.select-languages_icon{
+  width: 15px;
+  margin-left: 15px;
+  display: none;
+}
+
+/* Boton de Registro */
+.btn-signUp{
+  margin-left: 2em;
+  border: 3px solid var(--white);
+  border-radius: 6px;
+  padding: 7px 28px;
+  color: var(--white);
+  z-index: 10;
+  transition: .3s;
+}
+.btn-signUp:hover{
+  background-color: var(--white);
+  color: var(--primary);
+}
+
+/* /// Nav Bar Blanco /// */
+.navbar.light{
+  background-color: var(--white);
+}
+
+.navbar.light .navbar-logo {
+  filter: none;
+}
+
+.navbar.light .navbar-btns{
+  text-shadow: none;
+  color: #262626;
+}
+
+.navbar.light .navbar-menu{
+  background-color: var(--white);
+}
+
+.navbar.light .navbar-menu_btn{
+  color: var(--primary);
+}
+.navbar.light  .select-languages_icon{
+  color: #262626;
+}
+/* Boton de Registro con Gradiente */
+.navbar.light  .btn-signUp{
+  /* margin-left: 2em; */
+  background: linear-gradient(white, white) padding-box, linear-gradient(93.64deg, var(--primary) 5.46%, var(--secondary_hover) 94.15%) border-box;
+  border-radius: 6px;
+  border: 3px solid transparent;
+  color: #262626;
+}
+
+.navbar.light .btn-signUp:hover{
+  background: linear-gradient(#0000, #0000) padding-box, linear-gradient(93.64deg, var(--primary) 5.46%, var(--secondary_hover) 94.15%)border-box;
+  color: var(--white);
+}
+
+/*/// Nav Bar al hacer Scroll ///*/
+.navbar.scroll{
+  top: -100%;
+  position: fixed;
+  box-shadow: 0px 4px 6px #0000001A;
+  opacity: 0;
+  transition: 0.5s;
+}
+.navbar.scroll.active{
+  opacity: 1;
+  top: 0;
+}
+
+/* /// Responsive /// */
+@media (max-width: 1050px) {
+  .navbar{
+    padding: 8px 22px;
+  }
+
+  .navbar-logo{
+    width: 50%;
+  }
+
+  /* Menu desplegable */
+  .navbar-menu{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    min-height: 50vh;
+    /* margin: ; */
+    top: 50px;
+    left: 100%;
+    width: 100%;
+    z-index: 50;
+    box-shadow: 0px 4px 6px 0px #0000001A;
+    transition: .3s;
+    z-index: 80;
+  } 
+
+  .navbar-menu.active{
+    left: 0;
+  }
+
+  .navbar-btns{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .navbar-btns li{
+    padding: 20px 50px;
+  }
+
+  .navbar-menu_btn{
+    display: flex;
+  }
+
+  /* Selector de Idiomas */
+  .select-languages{
+    flex-direction: column;
+    height: auto;
+    transition: 5s;
+  }
+  .select-languages_menu{
+    opacity: 1;
+    box-shadow: none;
+    height: 0;
+    position: static;
+    transition: 3s;
+  }  
+  .select-languages_menu.active{
+    height: auto;
+  }
+  .select-languages_icon{
+    display: block;
+  }
+  
+  /* Selector de Idiomas Light */
+  .navbar.light .select-languages_menu{
+    background-color: var(--primary);
+  }
+  
+  .navbar.light .select-languages_menu li{
+    color: var(--white);
+  }
+
+  /* Boton de Registro */
+  .btn-signUp{
+    margin: 0;
+    margin-bottom: 41px;
+  }
+}

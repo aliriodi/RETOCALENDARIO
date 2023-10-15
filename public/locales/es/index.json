@@ -1,0 +1,27 @@
+{
+  "card1Title": "Trae tu niñera a la casa",
+  "card1Text": "Experimenta la sabiduria de una buena niñera",
+  "card1Button": "Regístrate ahora",
+  "card2": [
+    {
+      "title": "Conecta intereses de tu bebe",
+      "paragraph": "Integra a tu niñera en tu rutina diaria, en tus pasatiempos y aficiones"
+    },
+    {
+      "title": "Aprende haciendo",
+      "paragraph": "Aumenta la capacidad de tu niño con las habilidades de nuestras niñeras"
+    },
+    {
+      "title": "Que tu niño juegue",
+      "paragraph": "Conoce las actividades de tu niñera a traves de tu hijo"
+    },
+    {
+      "title": "Únete a nuestra comunidad",
+      "paragraph": "Conversa sobre tus temas de niños con madres y niñeras"
+    }
+  ],
+  "card3Title": "Conoce Nuestras niñeras",
+  "card3Text": "",
+  "card3Button": ""
+  
+}
