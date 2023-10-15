@@ -8,6 +8,25 @@ tipo user o niñera, si el usuario es:
 
 1. user.role ==="user"   es tipo cliente
 2. user.role ==="niñera" es tipo niñera y debe prestar servicios
+   usuarios existentes
+   ninera@gmail.com  password 123456789  role ninera
+   ninera2@gmail.com  password 123456789 role ninera
+   ninera3@gmail.com  password 123456789 role ninera
+   ninera4@gmail.com  password 123456789 role ninera
+
+   los usuarios clientes los pueden crear los desarrolladores en el acceso a register
+
+   a traves de la api
+
+   /api/get/users podran ver todos los usuarios y sus caracteristicas
+   los usuarios tanto clientes como niñeras tendran dos 4 calendarios
+   calendario1 objeto
+   calendario2 objeto
+   calendario3 array
+   calendario4 array
+
+   Esto con la finalidad de que puedan interactuar con una ninera y solicitar su servicio en el calendario
+   que ustedes diseñen
    
 Cada usuario debera forkear codigo y llevarselo a su repositorio personal donde desarrollara codigo
 en publico y compartira su github con aliriodi@gmail.com debera deployaer el codigo en nextjs vercel 
