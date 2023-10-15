@@ -35,4 +35,6 @@ para ver los avances en deploy
 Se estima 48 horas para hacer la solucion, en caso de no haber dado solucion en 48 horas, se extendera hasta un maximo 
 de 5 dias a partir de la fecha, el reto termina el 20/10/2021
 
+Si existe una solucion funcional y valida por el Project owner se hara un pago unico de 100usdt para la solucion.
+
 
