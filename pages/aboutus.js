@@ -6,7 +6,6 @@ import nextI18NextConfig from "../next-i18next.config";
 import { useTranslation, withTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import Layout from '../components/Layout';
-import Footer from '../components/Footer/Footer';
 import Image from 'next/image';
 import Aprende from '../components/aboutUSComponents/Aprende';
 import Three from '../components/aboutUSComponents/Three';
@@ -86,9 +85,7 @@ function Aboutus() {
         <Aprende />
         <Three />
         <Forma />
-        <FourAbout />
-        <div id="TEAM"> <ExpertsAbout /> </div>
-        <Footer />
+     
 
         
         {/* Ellipse Naranja */}

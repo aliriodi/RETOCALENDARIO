@@ -113,7 +113,7 @@ export default function Class(props) {
               {c.type === 'image' ? <div className='className'><Image width='100' height='100' src={c.value} alt={c.alt} /> </div>: null}
               {c.type === 'title' ? <div className='className'><p dangerouslySetInnerHTML={{ __html: c.value }}></p></div> : null}
               {c.type === 'video-youtube' ?<div className='youtube'> <YouTube ref={iframeRef} opts={opts} videoId={c.value} className='youtube'style={{ maxWidth: '400px', width: '100%' }} /> </div>: null}
-              {c.type === 'videoi-youtube' ? <div className='className'><YOUTUVEPOPUP titlep={null} popups={c.popups} videoId={c.value} className='youtube' /></div> : null}
+              {/* {c.type === 'videoi-youtube' ? <div className='className'><YOUTUVEPOPUP titlep={null} popups={c.popups} videoId={c.value} className='youtube' /></div> : null} */}
               <div className={styles['box']}>
               <div className='className'>
                 {c.type === 'options-box' ? c.value.map(value => <BOXMOMVE key={value.y} option={value} id={c.id}  />): null}
