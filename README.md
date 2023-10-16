@@ -41,6 +41,8 @@ tipo user o niñera, si el usuario es:
 
 DB_URI="mongodb+srv://aliriodi:8*4z}+xCS8L4B9c@cluster0.v9qfdqj.mongodb.net/nineras?retryWrites=true&w=majority"
 
+5. Puedes usar hasta un maximo de 3 paquetes o librerias adicionales, para estilos tienes css y tailwind no puedes salir de alli funcionales para que tu codigo sea mas facil de desarrollar, estan deben ser compatibles con el package.json existente.
+
    Esto con la finalidad de que puedan interactuar con una ninera y solicitar su servicio en el calendario
    que ustedes diseñen
    
