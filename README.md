@@ -8,6 +8,8 @@ tipo user o niñera, si el usuario es:
 
 1. user.role ==="user"   es tipo cliente
 2. user.role ==="niñera" es tipo niñera y debe prestar servicios
+
+   
    usuarios existentes
    ninera@gmail.com  password 123456789  role ninera
    ninera2@gmail.com  password 123456789 role ninera
