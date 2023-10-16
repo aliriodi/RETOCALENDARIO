@@ -60,5 +60,5 @@ a traves de binance para el candidato que de la 1era Solucion y unica, se inform
 de los emails de cada candidato si la prueba tecnica termino y quien fue el ganador.
 
 La solucion sera validada en 1era instancia en una reunion Zoom a acordar con el que presente y el equipo de Alirio Diaz.
-Donde habran preguntas tecnicas y funcionales, debera presentar su codigo y explciacion de funcionalidad.
+Donde habran preguntas tecnicas y funcionales, debera presentar su codigo y explicacion de funcionalidad.
 
