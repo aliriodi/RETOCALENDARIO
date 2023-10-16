@@ -35,8 +35,13 @@ tipo user o niñera, si el usuario es:
    calendario3 array
    
    calendario4 array
+   
 4. .env
+
+
 DB_URI="mongodb+srv://aliriodi:8*4z}+xCS8L4B9c@cluster0.v9qfdqj.mongodb.net/nineras?retryWrites=true&w=majority"
+
+5. Puedes usar hasta un maximo de 3 paquetes o librerias adicionales, para estilos tienes css y tailwind no puedes salir de alli funcionales para que tu codigo sea mas facil de desarrollar, estan deben ser compatibles con el package.json existente.
 
    Esto con la finalidad de que puedan interactuar con una ninera y solicitar su servicio en el calendario
    que ustedes diseñen
@@ -49,9 +54,13 @@ Se estima 48 horas para hacer la solucion, en caso de no haber dado solucion en 
 de 5 dias a partir de la fecha, el reto termina el 20/10/2021
 
 Si existe una solucion funcional y validada por el Equipo Tecnico y por el Project Owner se hara un pago unico 
-de 100usdt a traves de binance para el candidato que de la 1era Solucion y unica, se informara al resto de los candidatos a traves
+de 
+
+70usdt 
+
+a traves de binance para el candidato que de la 1era Solucion y unica, se informara al resto de los candidatos a traves
 de los emails de cada candidato si la prueba tecnica termino y quien fue el ganador.
 
 La solucion sera validada en 1era instancia en una reunion Zoom a acordar con el que presente y el equipo de Alirio Diaz.
-Donde habran preguntas tecnicas y funcionales, debera presentar su codigo y explciacion de funcionalidad.
+Donde habran preguntas tecnicas y funcionales, debera presentar su codigo y explicacion de funcionalidad.
 
