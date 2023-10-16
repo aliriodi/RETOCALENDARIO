@@ -23,14 +23,19 @@ tipo user o niñera, si el usuario es:
 
    los usuarios clientes los pueden crear los desarrolladores en el acceso a register
 
-   a traves de la api
+3.   a traves de la api
 
    /api/get/users podran ver todos los usuarios y sus caracteristicas
-   los usuarios tanto clientes como niñeras tendran dos 4 calendarios
+   los usuarios tanto clientes como niñeras tendran cuatro 4 calendarios
+   
    calendario1 objeto
+   
    calendario2 objeto
+   
    calendario3 array
+   
    calendario4 array
+   
 
    Esto con la finalidad de que puedan interactuar con una ninera y solicitar su servicio en el calendario
    que ustedes diseñen
