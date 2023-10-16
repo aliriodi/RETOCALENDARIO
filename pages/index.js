@@ -166,10 +166,10 @@ export default function Home() {
   paddingLeft:'1%'
 }}>Esta informacion no debe ser hardcodeado los estilos aca en esta seccion  son importantes en el calendario, no deber ser perfecto pero que se parezca,
  los dias que se ven en gris 
-                 son los dias disponibles, los horarios pueden cambiar segun los idas de acuerdo a  la disponibilidad de la Niñera, 
+                 son los dias disponibles, los horarios pueden cambiar segun los dias de acuerdo a  la disponibilidad de la Niñera, 
                  al dar continuar debe aparecer un boton de reservar donde el usuario podrar apartar a su Niñera para una fecha y hora indicada
                  cuando la  Niñera entre a su perfil debera ver una lista de citas ya reservadas y los idas sigueintes ella puede 
-                 modificar sus horarios dispoibles
+                 modificar sus horarios disponibles
             </div>
 
       
