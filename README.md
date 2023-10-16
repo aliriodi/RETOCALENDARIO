@@ -11,9 +11,14 @@ tipo user o niñera, si el usuario es:
 
    
    usuarios existentes
+
+   
    ninera@gmail.com  password 123456789  role ninera
+   
    ninera2@gmail.com  password 123456789 role ninera
+   
    ninera3@gmail.com  password 123456789 role ninera
+   
    ninera4@gmail.com  password 123456789 role ninera
 
    los usuarios clientes los pueden crear los desarrolladores en el acceso a register
