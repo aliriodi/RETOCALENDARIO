@@ -87,6 +87,20 @@ export default function Home() {
           md:scale-x-[3] md:left-[-50%]'  
           style={{borderRadius:'0 0 50% 50% /0 0 100% 100% '}}/>
         </header>
+        <div   style={{ 
+                width: '50%',          // Ancho del 100% del contenedor padre
+                padding: '10px',        // Relleno de 10px
+                backgroundColor: 'lightgray',  // Color de fondo gris claro
+                position: 'relative',   // Posición relativa para moverlo
+                top: '20px',            // Moverlo 20px hacia abajo (puedes ajustar este valor)
+                marginLeft: '20%',
+                marginBottom:'3%',
+                paddingLeft:'1%'}}>
+          A continuacion parte de las instrucciones complementando con el Readme del repositorio indicado a continuacion:
+          <p>
+          https://github.com/aliriodi/RETOCALENDARIO</p>
+
+        </div>
         <Image
                 src="https://res.cloudinary.com/dfddh08q8/image/upload/v1697472420/images/imagen1RETO_a9jobf.jpg"
                 alt="Teléfono"
