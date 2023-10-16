@@ -52,7 +52,7 @@ Se estima 48 horas para hacer la solucion, en caso de no haber dado solucion en 
 de 5 dias a partir de la fecha, el reto termina el 20/10/2021
 
 Si existe una solucion funcional y validada por el Equipo Tecnico y por el Project Owner se hara un pago unico 
-de 100usdt a traves de binance para el candidato que de la 1era Solucion y unica, se informara al resto de los candidatos a traves
+de 70usdt a traves de binance para el candidato que de la 1era Solucion y unica, se informara al resto de los candidatos a traves
 de los emails de cada candidato si la prueba tecnica termino y quien fue el ganador.
 
 La solucion sera validada en 1era instancia en una reunion Zoom a acordar con el que presente y el equipo de Alirio Diaz.
