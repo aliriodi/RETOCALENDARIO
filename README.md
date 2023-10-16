@@ -35,7 +35,10 @@ tipo user o niñera, si el usuario es:
    calendario3 array
    
    calendario4 array
+   
 4. .env
+
+
 DB_URI="mongodb+srv://aliriodi:8*4z}+xCS8L4B9c@cluster0.v9qfdqj.mongodb.net/nineras?retryWrites=true&w=majority"
 
    Esto con la finalidad de que puedan interactuar con una ninera y solicitar su servicio en el calendario
