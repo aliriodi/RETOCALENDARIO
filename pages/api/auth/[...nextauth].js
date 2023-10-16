@@ -29,14 +29,14 @@ export default NextAuth({
         }
       }
     }),
-    GoogleProvider({
-        clientId: process.env.GOOGLE_CLIENT_ID,
-        clientSecret: process.env.GOOGLE_CLIENT_SECRET
-    }),
-    FacebookProvider({
-      clientId: process.env.FACEBOOK_CLIENT_ID,
-      clientSecret: process.env.FACEBOOK_CLIENT_SECRET
-    })
+    // GoogleProvider({
+    //     clientId: process.env.GOOGLE_CLIENT_ID,
+    //     clientSecret: process.env.GOOGLE_CLIENT_SECRET
+    // }),
+    // FacebookProvider({
+    //   clientId: process.env.FACEBOOK_CLIENT_ID,
+    //   clientSecret: process.env.FACEBOOK_CLIENT_SECRET
+    // })
   ],
   callbacks: {
     async signIn({ account, profile }) {
@@ -49,8 +49,8 @@ export default NextAuth({
           image: {
             url: profile.picture,
             public_id: ""
-          }
-        }
+           }
+      }
 
         signInUser(newUser)
         
