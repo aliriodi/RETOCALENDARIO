@@ -87,6 +87,64 @@ export default function Home() {
           md:scale-x-[3] md:left-[-50%]'  
           style={{borderRadius:'0 0 50% 50% /0 0 100% 100% '}}/>
         </header>
+        <Image
+                src="https://res.cloudinary.com/dfddh08q8/image/upload/v1697472420/images/imagen1RETO_a9jobf.jpg"
+                alt="Teléfono"
+                width={600}
+                height={300}
+                style={{filter:'drop-shadow(0px 4px 43px #00000026); ',paddingLeft:'10%'}}
+                className='relative z-20  min-w-[715.56px] '/>
+              <div
+              style={{ 
+                width: '30%',          // Ancho del 100% del contenedor padre
+                padding: '10px',        // Relleno de 10px
+                backgroundColor: 'lightgray',  // Color de fondo gris claro
+                position: 'relative',   // Posición relativa para moverlo
+                top: '20px',            // Moverlo 20px hacia abajo (puedes ajustar este valor)
+                marginLeft: '50%',
+                marginTop:'-13%',
+                paddingLeft:'1%'}}>Si entra un cliente con role === user debe poder ver  las Niñeras con  las estrellas nombre, monto y descricion hardcodeado</div>  
+        <Image
+                src="https://res.cloudinary.com/dfddh08q8/image/upload/v1697473313/images/imagen2RETO_teqcsa.jpg"
+                alt="Teléfono"
+                width={600}
+                height={300}
+                style={{filter:'drop-shadow(0px 4px 43px #00000026); ',paddingLeft:'10%',marginTop:'12%'}}
+
+                className='relative z-20  min-w-[715.56px] '/>
+            <div style={{ 
+  width: '30%',          // Ancho del 100% del contenedor padre
+  padding: '10px',        // Relleno de 10px
+  backgroundColor: 'lightgray',  // Color de fondo gris claro
+  position: 'relative',   // Posición relativa para moverlo
+  top: '20px',            // Moverlo 20px hacia abajo (puedes ajustar este valor)
+  marginLeft: '50%',
+  marginTop:'-13%',
+  paddingLeft:'1%'}}>Esta informacion se presenta como un carddetail hardcodeado tambien</div>
+          <Image
+                src="https://res.cloudinary.com/dfddh08q8/image/upload/v1697473445/images/imagen3RETO_y8xm5g.jpg"
+                alt="Teléfono"
+                width={600}
+                height={300}
+                style={{filter:'drop-shadow(0px 4px 43px #00000026); ',paddingLeft:'10%',marginTop:'12%'}}
+                className='relative z-20  min-w-[715.56px] '/>
+            
+            <div style={{ 
+  width: '30%',          // Ancho del 100% del contenedor padre
+  padding: '10px',        // Relleno de 10px
+  backgroundColor: 'lightgray',  // Color de fondo gris claro
+  position: 'relative',   // Posición relativa para moverlo
+  top: '20px',            // Moverlo 20px hacia abajo (puedes ajustar este valor)
+  marginLeft: '50%',
+  marginTop:'-15%',
+  paddingLeft:'1%'
+}}>Esta informacion no debe ser hardcodeado los estilos aca en esta seccion  son importantes en el calendario, no deber ser perfecto pero que se parezca,
+ los dias que se ven en gris 
+                 son los dias disponibles, los horarios pueden cambiar segun los idas de acuerdo a  la disponibilidad de la Niñera, 
+                 al dar continuar debe aparecer un boton de reservar donde el usuario podrar apartar a su Niñera para una fecha y hora indicada
+                 cuando la  Niñera entre a su perfil debera ver una lista de citas ya reservadas y los idas sigueintes ella puede 
+                 modificar sus horarios dispoibles
+            </div>
 
         <Four />
   
