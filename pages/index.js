@@ -9,7 +9,7 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import NAVBAR from "../components/Navbar/Navbar"
 import Four from '../components/landingComponents/Four';
 import Image from 'next/image';
-
+import Link from 'next/link';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -97,8 +97,14 @@ export default function Home() {
                 marginBottom:'3%',
                 paddingLeft:'1%'}}>
           A continuacion parte de las instrucciones complementando con el Readme del repositorio indicado a continuacion:
-          <p>
-          https://github.com/aliriodi/RETOCALENDARIO</p>
+           <Link
+            style={{ 
+               backgroundColor: 'white',  // Color de fondo gris claro
+                     marginLeft: '2%',
+                      }}
+           
+           href=" https://github.com/aliriodi/RETOCALENDARIO" >
+          https://github.com/aliriodi/RETOCALENDARIO </Link>
 
         </div>
         <Image
@@ -116,8 +122,13 @@ export default function Home() {
                 position: 'relative',   // Posición relativa para moverlo
                 top: '20px',            // Moverlo 20px hacia abajo (puedes ajustar este valor)
                 marginLeft: '50%',
-                marginTop:'-13%',
-                paddingLeft:'1%'}}>Si entra un cliente con role === user debe poder ver  las Niñeras con  las estrellas nombre, monto y descricion hardcodeado</div>  
+                marginTop:'-16%',
+                paddingLeft:'1%'}}>
+                  Debes crear tu usuario en en el login, al crearlo te manda al Home y ya podes usar tu usuario con role=user,
+                  en la ruta /inicio/nineras, esta ruta debe ser llamada desde la barra Menu creada por usted, entre al Menu y al componente
+                  Menu para crear este nuevo enlace y ruta.
+                  si entra un cliente con role === user debe poder ver  
+                  las Niñeras con  las estrellas nombre, monto y descricion hardcodeado</div>  
         <Image
                 src="https://res.cloudinary.com/dfddh08q8/image/upload/v1697473313/images/imagen2RETO_teqcsa.jpg"
                 alt="Teléfono"
@@ -134,13 +145,14 @@ export default function Home() {
   top: '20px',            // Moverlo 20px hacia abajo (puedes ajustar este valor)
   marginLeft: '50%',
   marginTop:'-13%',
-  paddingLeft:'1%'}}>Esta informacion se presenta como un carddetail hardcodeado tambien</div>
+  paddingLeft:'1%'}}>Esta informacion se presenta como un carddetail hardcodeado tambien en la ruta /inicio/cardetail/$id
+                     el boton azul que esta alli es para reservar esa Niñera</div>
           <Image
                 src="https://res.cloudinary.com/dfddh08q8/image/upload/v1697473445/images/imagen3RETO_y8xm5g.jpg"
                 alt="Teléfono"
                 width={600}
                 height={300}
-                style={{filter:'drop-shadow(0px 4px 43px #00000026); ',paddingLeft:'10%',marginTop:'12%'}}
+                style={{filter:'drop-shadow(0px 4px 43px #00000026); ',paddingLeft:'10%',marginTop:'12%',  marginBottom:'6%'}}
                 className='relative z-20  min-w-[715.56px] '/>
             
             <div style={{ 
@@ -150,7 +162,7 @@ export default function Home() {
   position: 'relative',   // Posición relativa para moverlo
   top: '20px',            // Moverlo 20px hacia abajo (puedes ajustar este valor)
   marginLeft: '50%',
-  marginTop:'-15%',
+  marginTop:'-25%',
   paddingLeft:'1%'
 }}>Esta informacion no debe ser hardcodeado los estilos aca en esta seccion  son importantes en el calendario, no deber ser perfecto pero que se parezca,
  los dias que se ven en gris 
@@ -160,8 +172,9 @@ export default function Home() {
                  modificar sus horarios dispoibles
             </div>
 
-        <Four />
-  
+      
+<div style={{ 
+  width: '30%',     height:'100px'}}>.</div>
       
      
       
