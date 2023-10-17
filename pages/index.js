@@ -168,7 +168,7 @@ export default function Home() {
  los dias que se ven en gris 
                  son los dias disponibles, los horarios pueden cambiar segun los dias de acuerdo a  la disponibilidad de la Niñera, 
                  al dar continuar debe aparecer un boton de reservar donde el usuario podrar apartar a su Niñera para una fecha y hora indicada
-                 cuando la  Niñera entre a su perfil debera ver una lista de citas ya reservadas y los idas sigueintes ella puede 
+                 cuando la  Niñera entre a su perfil debera ver una lista de citas ya reservadas y los dias sigueintes ella puede 
                  modificar sus horarios disponibles
             </div>
 
