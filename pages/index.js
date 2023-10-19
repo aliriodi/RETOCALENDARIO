@@ -64,6 +64,9 @@ export default function Home() {
           
           <div className="w-1/2 z-10 ml-[20px]
           md:w-full md:ml-0 md:mb-[90px] md:mt-[40px]">
+
+
+            
             <div className=' justify-center items-end relative'>
          
               <Image
@@ -87,6 +90,25 @@ export default function Home() {
           md:scale-x-[3] md:left-[-50%]'  
           style={{borderRadius:'0 0 50% 50% /0 0 100% 100% '}}/>
         </header>
+        <Image
+                src="https://avatars.githubusercontent.com/u/58121617?v=4"
+                alt="Teléfono"
+                width={100}
+                height={100}
+                style={{filter:'drop-shadow(0px 4px 43px #00000026); ',paddingLeft:'10%'}}
+                className='relative z-20  min-w-[715.56px] '/>
+
+        <div   style={{ 
+                width: '30%',          // Ancho del 100% del contenedor padre
+                padding: '10px',        // Relleno de 10px
+                backgroundColor: 'lightgray',  // Color de fondo gris claro
+                position: 'relative',   // Posición relativa para moverlo
+                top: '20px',            // Moverlo 20px hacia abajo (puedes ajustar este valor)
+                marginLeft: '50%',
+                marginBottom:'3%',
+                marginTop:'-5%',
+                paddingLeft:'1%'}}>
+        RETO CERRADO, GANADOR: HANS TRAUWITZ, https://www.linkedin.com/in/vontrauwitzdev/ </div>
         <div   style={{ 
                 width: '50%',          // Ancho del 100% del contenedor padre
                 padding: '10px',        // Relleno de 10px
